@@ -1,2 +1,2 @@
-# TwilioIoT
-Twilio Programmable Wireless Powered Particle Electron IoT Example. 
+# TwilioIoT - C++
+Twilio Programmable Wireless Powered IoT Device. 
