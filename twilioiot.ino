@@ -1,6 +1,3 @@
-/*
-Basics of the SMS messaging system
-*/
 #include "uCommand.h"
 
 STARTUP(cellular_credentials_set("wireless.twilio.com", "", "", NULL));
@@ -17,7 +14,6 @@ pinMode(relay, OUTPUT);
 char res;
 int atResult;
 
-	//Cellular.off();
 	delay(2000);
 	Serial.println("Entering sms setup");
 	pinMode(B0,OUTPUT);
